@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/xivid/Project/InterruptDemo/Interrupt.ncd
+OUTFILE=/home/xivid/Project/InterruptDemo/Interrupt.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/xivid/Project/InterruptDemo
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,94 @@
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/Interrupt/Interrupt.xst" -ofn "/home/xivid/Project/Interrupt/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/InterruptDemo/Interrupt.xst" -ofn "/home/xivid/Project/InterruptDemo/Interrupt.syr" 
+xst -intstyle ise -ifn "/home/xivid/Project/InterruptDemo/Interrupt.xst" -ofn "/home/xivid/Project/InterruptDemo/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/InterruptDemo/Interrupt.xst" -ofn "/home/xivid/Project/InterruptDemo/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
+xst -intstyle ise -ifn "/home/xivid/Project/InterruptDemo/Interrupt.xst" -ofn "/home/xivid/Project/InterruptDemo/Interrupt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IO.ucf -p xc6slx16-csg324-3 Interrupt.ngc Interrupt.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interrupt_map.ncd Interrupt.ngd Interrupt.pcf 
+par -w -intstyle ise -ol high -mt off Interrupt_map.ncd Interrupt.ncd Interrupt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf -ucf IO.ucf 
+bitgen -intstyle ise -f Interrupt.ut Interrupt.ncd 
