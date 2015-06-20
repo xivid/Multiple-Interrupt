@@ -1,0 +1,228 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.2/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Interrupt.twx Interrupt.ncd -o Interrupt.twr Interrupt.pcf
+-ucf IO.ucf
+
+Design file:              Interrupt.ncd
+Physical constraint file: Interrupt.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.22 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock maskset<1>
+------------+------------+------------+------------+------------+----------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                            | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)           | Phase  |
+------------+------------+------------+------------+------------+----------------------------+--------+
+btn<1>      |    0.634(R)|      SLOW  |    0.795(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<2>      |    0.404(R)|      SLOW  |    1.050(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<3>      |    1.436(R)|      SLOW  |   -0.170(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<4>      |    0.499(R)|      SLOW  |    0.955(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+------------+------------+------------+------------+------------+----------------------------+--------+
+
+Setup/Hold to clock maskset<2>
+------------+------------+------------+------------+------------+----------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                            | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)           | Phase  |
+------------+------------+------------+------------+------------+----------------------------+--------+
+btn<1>      |    0.801(R)|      SLOW  |    0.628(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<2>      |    0.571(R)|      SLOW  |    0.883(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<3>      |    1.603(R)|      SLOW  |   -0.337(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<4>      |    0.666(R)|      SLOW  |    0.788(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+------------+------------+------------+------------+------------+----------------------------+--------+
+
+Setup/Hold to clock maskset<3>
+------------+------------+------------+------------+------------+----------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                            | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)           | Phase  |
+------------+------------+------------+------------+------------+----------------------------+--------+
+btn<1>      |    1.283(R)|      SLOW  |    0.117(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<2>      |    1.053(R)|      SLOW  |    0.372(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<3>      |    2.085(R)|      SLOW  |   -0.848(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<4>      |    1.148(R)|      SLOW  |    0.277(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+------------+------------+------------+------------+------------+----------------------------+--------+
+
+Setup/Hold to clock maskset<4>
+------------+------------+------------+------------+------------+----------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                            | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)           | Phase  |
+------------+------------+------------+------------+------------+----------------------------+--------+
+btn<1>      |    1.074(R)|      SLOW  |    0.336(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<2>      |    0.844(R)|      SLOW  |    0.591(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<3>      |    1.876(R)|      SLOW  |   -0.629(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+btn<4>      |    0.939(R)|      SLOW  |    0.496(R)|      SLOW  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+------------+------------+------------+------------+------------+----------------------------+--------+
+
+Clock maskset<1> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                            | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)           | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+Led<1>      |        13.825(R)|      SLOW  |         7.446(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<2>      |        14.165(R)|      SLOW  |         7.431(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<3>      |        13.988(R)|      SLOW  |         7.647(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<4>      |        14.170(R)|      SLOW  |         7.855(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+
+Clock maskset<2> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                            | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)           | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+Led<1>      |        13.658(R)|      SLOW  |         7.389(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<2>      |        13.998(R)|      SLOW  |         7.374(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<3>      |        13.821(R)|      SLOW  |         7.590(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<4>      |        14.003(R)|      SLOW  |         7.798(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+
+Clock maskset<3> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                            | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)           | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+Led<1>      |        13.147(R)|      SLOW  |         7.005(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<2>      |        13.487(R)|      SLOW  |         6.990(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<3>      |        13.310(R)|      SLOW  |         7.206(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<4>      |        13.492(R)|      SLOW  |         7.414(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+
+Clock maskset<4> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                            | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)           | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+Led<1>      |        13.366(R)|      SLOW  |         7.185(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<2>      |        13.706(R)|      SLOW  |         7.170(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<3>      |        13.529(R)|      SLOW  |         7.386(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+Led<4>      |        13.711(R)|      SLOW  |         7.594(R)|      FAST  |maskset[1]_GND_5_o_equal_3_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.057|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock maskset<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+maskset<1>     |   -0.006|   -0.006|         |         |
+maskset<2>     |   -0.280|   -0.280|         |         |
+maskset<3>     |   -0.470|   -0.470|         |         |
+maskset<4>     |   -0.432|   -0.432|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock maskset<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+maskset<1>     |    0.074|    0.074|         |         |
+maskset<2>     |   -0.223|   -0.223|         |         |
+maskset<3>     |   -0.413|   -0.413|         |         |
+maskset<4>     |   -0.375|   -0.375|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock maskset<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+maskset<1>     |    0.556|    0.556|         |         |
+maskset<2>     |    0.161|    0.161|         |         |
+maskset<3>     |   -0.029|   -0.029|         |         |
+maskset<4>     |    0.009|    0.009|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock maskset<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+maskset<1>     |    0.347|    0.347|         |         |
+maskset<2>     |   -0.019|   -0.019|         |         |
+maskset<3>     |   -0.209|   -0.209|         |         |
+maskset<4>     |   -0.171|   -0.171|         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+btn<0>         |Led<1>         |   11.277|
+btn<0>         |Led<2>         |   11.052|
+btn<0>         |Led<3>         |   11.215|
+btn<0>         |Led<4>         |   10.892|
+btn<1>         |Led<1>         |   11.865|
+btn<1>         |Led<2>         |   11.752|
+btn<1>         |Led<3>         |   11.903|
+btn<1>         |Led<4>         |   11.915|
+btn<2>         |Led<1>         |   11.845|
+btn<2>         |Led<2>         |   11.934|
+btn<2>         |Led<3>         |   11.757|
+btn<2>         |Led<4>         |   12.149|
+btn<3>         |Led<1>         |   13.056|
+btn<3>         |Led<2>         |   12.777|
+btn<3>         |Led<3>         |   13.037|
+btn<3>         |Led<4>         |   13.039|
+btn<4>         |Led<1>         |   12.453|
+btn<4>         |Led<2>         |   11.918|
+btn<4>         |Led<3>         |   12.141|
+btn<4>         |Led<4>         |   12.519|
+maskset<1>     |Led<1>         |   11.641|
+maskset<1>     |Led<2>         |   11.621|
+maskset<1>     |Led<3>         |   11.807|
+maskset<1>     |Led<4>         |   11.368|
+maskset<2>     |Led<1>         |   11.474|
+maskset<2>     |Led<2>         |   11.454|
+maskset<2>     |Led<3>         |   11.640|
+maskset<2>     |Led<4>         |   11.201|
+maskset<3>     |Led<1>         |   10.963|
+maskset<3>     |Led<2>         |   10.943|
+maskset<3>     |Led<3>         |   11.129|
+maskset<3>     |Led<4>         |   10.690|
+maskset<4>     |Led<1>         |   11.182|
+maskset<4>     |Led<2>         |   11.162|
+maskset<4>     |Led<3>         |   11.348|
+maskset<4>     |Led<4>         |   10.909|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jun 11 09:34:58 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 392 MB
+
+
+
